@@ -1,4 +1,4 @@
 
 export default function getResponseFromAPI(){
-	return(new promise((resole, reject) => {}));
+	return(new Promise((resole, reject) => {}));
 }
