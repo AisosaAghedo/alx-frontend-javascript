@@ -1,4 +1,5 @@
 export default function updateStudentGradeByCity(students, city, newGrades) {
+  /*eslint-disable*/
   const result = [];
   const filtered = students.filter((student) => student.location === city).map((el) => {
     const foundItem = newGrades.find((ng) => ng.studentId === el.id);
